@@ -1,19 +1,17 @@
-import Header from '../components/Header';
-import Hero from '../components/Hero';
-import PromoBanner from '../components/PromoBanner';
-import CategoryGrid from '../components/CategoryGrid';
-import CTASection from '../components/CTASection';
-import Footer from '../components/Footer';
+import Header from '@/components/Header';
+import Hero from '@/components/Hero';
+import StatsBar from '@/components/StatsBar';
+import BookingWizard from '@/components/BookingWizard';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
-    <>
+    <main className="min-h-screen flex flex-col">
       <Header />
       <Hero />
-      <PromoBanner />
-      <CategoryGrid />
-      <CTASection />
+      <StatsBar />
+      <BookingWizard />
       <Footer />
-    </>
+    </main>
   );
 }
