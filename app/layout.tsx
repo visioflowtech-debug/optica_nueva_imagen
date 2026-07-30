@@ -53,9 +53,6 @@ export const metadata: Metadata = {
     description: 'Cuidado visual de confianza en Lourdes, Colón, La Libertad.',
     images: ['/images/hero.webp'],
   },
-  icons: {
-    icon: '/favicon.ico',
-  },
 };
 
 export const viewport = {
