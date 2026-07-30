@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Manrope, Source_Sans_3 } from 'next/font/google';
+import { SITE_URL, BUSINESS } from '@/lib/business';
 import './globals.css';
 
 const display = Manrope({
@@ -15,8 +16,6 @@ const body = Source_Sans_3({
   variable: '--font-body',
   display: 'swap',
 });
-
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://opticanuevaimagen.vercel.app';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -72,6 +71,7 @@ const jsonLd = {
   url: SITE_URL,
   telephone: '+50325629435',
   priceRange: '$$',
+  sameAs: [BUSINESS.facebookUrl],
   address: {
     '@type': 'PostalAddress',
     streetAddress: 'Plaza Palmeras, Local 12, Contiguo a Correos, Banco Agrícola y Super Selectos',

@@ -6,9 +6,10 @@ o para conectarlo más adelante a una herramienta de publicación (Meta Business
 con las credenciales reales de la óptica.
 
 ## 0. Antes de nada — pendientes que solo tú puedes resolver
-- [ ] Confirmar el dominio real de producción y configurar `NEXT_PUBLIC_SITE_URL` en Vercel (Project → Settings → Environment Variables). Mientras tanto el sitio usa `https://opticanuevaimagen.vercel.app` como valor por defecto en metadatos/SEO.
+- [x] Dominio real de producción: `https://www.nuevaimagen.shop` — ya está fijado como valor por defecto en `lib/business.ts` (`SITE_URL`), usado en metadatos, Open Graph, JSON-LD, sitemap y robots.
+- [x] Facebook enlazado: `https://www.facebook.com/profile.php?id=61554956325320` (footer + `schema.org sameAs`).
 - [ ] Dar de alta o reclamar el perfil de **Google Business Profile** (si no existe) con el nombre, dirección y teléfono exactos que ya están en el sitio.
-- [ ] Compartir los enlaces reales de Facebook e Instagram (si existen) para enlazarlos en el footer y en el schema.org `sameAs`. No inventé ninguno.
+- [ ] Compartir el enlace real de Instagram (si existe) para enlazarlo también.
 - [ ] Decidir quién responde los mensajes de WhatsApp que llegan desde el botón "Agendar por WhatsApp" — es el canal de conversión principal del sitio.
 
 ## 1. Por qué no hay testimonios de pacientes en el sitio

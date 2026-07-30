@@ -1,4 +1,6 @@
 // Single source of truth for real business data — keep every component in sync.
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.nuevaimagen.shop';
+
 export const BUSINESS = {
   name: 'Óptica Nueva Imagen',
   phoneDisplay: '+503 2562 9435',
@@ -8,6 +10,7 @@ export const BUSINESS = {
   mapsEmbedSrc: 'https://www.google.com/maps?q=Plaza+Palmeras+Local+12+Lourdes+Colon+La+Libertad+El+Salvador&output=embed',
   mapsLink: 'https://maps.app.goo.gl/oq2bB8ymmhU3ogta7',
   hours: 'Lun–Sáb, 8:30 a.m. – 5:00 p.m.',
+  facebookUrl: 'https://www.facebook.com/profile.php?id=61554956325320',
   stats: [
     { value: '12+', label: 'años de experiencia' },
     { value: '8,000+', label: 'pacientes atendidos' },
