@@ -7,25 +7,22 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Figma design tokens
-        navy:       '#1B3A4B',
-        navyLight:  '#243F55',
-        gold:       '#C9973A',
-        goldLight:  '#DFB55A',
-        lightBg:    '#F0F4F8',
-        borderCol:  '#E2E8F0',
-        textMuted:  '#64748B',
-        // Corporate palette
-        primaryRed: '#8C1B2A',
-        brandGreen: '#7E9C65',
-        brandBlue:  '#6A8CA3',
-        darkGray:   '#2C3539',
+        // Brand accent — óptica, confianza, claridad visual
+        brand: {
+          DEFAULT: 'oklch(0.55 0.14 235)',
+          dark:    'oklch(0.40 0.13 235)',
+          light:   'oklch(0.94 0.03 235)',
+        },
+        whatsapp: '#25D366',
+        ink:        'oklch(0.24 0.02 250)',
+        inkMuted:   'oklch(0.45 0.02 250)',
+        surface:    'oklch(0.99 0.003 250)',
+        surfaceAlt: 'oklch(0.965 0.006 250)',
+        borderSoft: 'oklch(0.90 0.01 250)',
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-      },
-      backgroundImage: {
-        'hero-gradient': 'linear-gradient(135deg, #1B3A4B 0%, #0F2535 50%, #162D3D 100%)',
+        sans: ['var(--font-body)', 'sans-serif'],
+        display: ['var(--font-display)', 'sans-serif'],
       },
       keyframes: {
         fadeUp: {
