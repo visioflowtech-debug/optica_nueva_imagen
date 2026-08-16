@@ -6,7 +6,6 @@ import Location from '@/components/Location';
 import Reviews from '@/components/Reviews';
 import Tips from '@/components/Tips';
 import Booking from '@/components/Booking';
-import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -20,7 +19,6 @@ export default function Home() {
       <Reviews />
       <Tips />
       <Booking />
-      <Contact />
       <Footer />
     </main>
   );
