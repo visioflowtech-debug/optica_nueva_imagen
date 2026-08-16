@@ -68,7 +68,7 @@ const jsonLd = {
   url: SITE_URL,
   telephone: '+50325629435',
   priceRange: '$$',
-  sameAs: [BUSINESS.facebookUrl],
+  sameAs: [BUSINESS.facebookUrl, BUSINESS.instagramUrl, BUSINESS.tiktokUrl],
   address: {
     '@type': 'PostalAddress',
     streetAddress: 'Plaza Palmeras, Local 12, Contiguo a Correos, Banco Agrícola y Super Selectos',

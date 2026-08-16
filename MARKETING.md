@@ -8,8 +8,9 @@ con las credenciales reales de la óptica.
 ## 0. Antes de nada — pendientes que solo tú puedes resolver
 - [x] Dominio real de producción: `https://www.nuevaimagen.shop` — ya está fijado como valor por defecto en `lib/business.ts` (`SITE_URL`), usado en metadatos, Open Graph, JSON-LD, sitemap y robots.
 - [x] Facebook enlazado: `https://www.facebook.com/profile.php?id=61554956325320` (footer + `schema.org sameAs`).
+- [x] Instagram enlazado: `https://www.instagram.com/optica.nueva.imagensv/` (footer + `schema.org sameAs`).
+- [x] TikTok enlazado: `https://www.tiktok.com/@optica.nueva.imagensv` (footer + `schema.org sameAs`).
 - [ ] Dar de alta o reclamar el perfil de **Google Business Profile** (si no existe) con el nombre, dirección y teléfono exactos que ya están en el sitio.
-- [ ] Compartir el enlace real de Instagram (si existe) para enlazarlo también.
 - [ ] Decidir quién responde los mensajes de WhatsApp que llegan desde el botón "Agendar por WhatsApp" — es el canal de conversión principal del sitio.
 
 ## 1. Por qué no hay testimonios de pacientes en el sitio

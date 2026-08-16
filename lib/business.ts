@@ -11,6 +11,8 @@ export const BUSINESS = {
   mapsLink: 'https://maps.app.goo.gl/oq2bB8ymmhU3ogta7',
   hours: 'Lun–Sáb, 8:30 a.m. – 5:00 p.m.',
   facebookUrl: 'https://www.facebook.com/profile.php?id=61554956325320',
+  instagramUrl: 'https://www.instagram.com/optica.nueva.imagensv/',
+  tiktokUrl: 'https://www.tiktok.com/@optica.nueva.imagensv',
   stats: [
     { value: '12+', label: 'años de experiencia' },
     { value: '8,000+', label: 'pacientes atendidos' },
