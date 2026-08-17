@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Manrope, Source_Sans_3 } from 'next/font/google';
 import { SITE_URL, BUSINESS } from '@/lib/business';
+import ChatwootWidget from '@/components/ChatwootWidget';
 import './globals.css';
 
 const display = Manrope({
@@ -99,6 +100,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         {children}
+        <ChatwootWidget />
       </body>
     </html>
   );
